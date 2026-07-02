@@ -1,0 +1,24 @@
+{
+  "name": "opencode-update",
+  "version": "1.0.0",
+  "displayName": "opencode-update",
+  "description": "Cross-platform detection and update tool for opencode-family components. Scans all install environments (npm, pnpm, bun, vite-plus, volta, nvm, fnm) and applies updates using native package managers.",
+  "family": "code-plugin",
+  "entry": "scripts/detect-opencode.sh",
+  "hostTargets": [],
+  "categories": ["developer-tools"],
+  "tags": ["opencode", "devtools", "update", "detect", "cli"],
+  "sourceRepo": "samonysh/opencode-update",
+  "sourceRef": "v1.0.0",
+  "license": "MIT",
+  "files": [
+    "scripts/detect-opencode.sh",
+    "scripts/update-opencode.sh",
+    "scripts/detect-opencode.ps1",
+    "scripts/update-opencode.ps1",
+    "README.md",
+    "LICENSE",
+    "docs/install-environments.md",
+    "docs/node-managers.md"
+  ]
+}
