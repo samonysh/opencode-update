@@ -1,0 +1,9 @@
+{
+  "name": "opencode-update",
+  "version": "1.0.0",
+  "description": "Cross-platform detection and update tool for opencode-family components",
+  "private": true,
+  "license": "MIT",
+  "keywords": ["opencode", "devtools", "update", "detect", "cli"],
+  "author": "SamonYu"
+}

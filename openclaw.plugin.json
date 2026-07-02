@@ -18,7 +18,17 @@
     "scripts/update-opencode.ps1",
     "README.md",
     "LICENSE",
+    "openclaw.plugin.json",
+    "package.json",
     "docs/install-environments.md",
     "docs/node-managers.md"
-  ]
+  ],
+  "openclaw": {
+    "compat": {
+      "pluginApi": ">=0.1.0"
+    },
+    "build": {
+      "openclawVersion": "0.23.0"
+    }
+  }
 }
